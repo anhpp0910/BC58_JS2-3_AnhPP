@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JS BUỔI 2-3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- BÀI 1 -->
+      <div class="container my-5">
+        <h4>Bài 1: Tính tiền lương nhân viên</h4>
+        <p>Lương 1 ngày: 100000</p>
+        <div class="form-group">
+          <p>Nhập vào số ngày làm</p>
+          <input type="number" class="form-control w-25" id="soNgayLam" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success my-3" id="btnBai1">
+            Tính tiền lương
+          </button>
+          <p class="alert alert-success w-25" id="ketQuaBai1"></p>
+        </div>
+      </div>
+      <hr />
+
+      <!-- BÀI 2 -->
+      <div class="container my-5">
+        <h4>Bài 2: Tính giá trị trung bình</h4>
+        <div class="form-group">
+          <p>Nhập vào 5 số thực</p>
+          <input type="number" class="form-control w-25" id="soThu1" />
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control w-25 mt-2" id="soThu2" />
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control w-25 mt-2" id="soThu3" />
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control w-25 mt-2" id="soThu4" />
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control w-25 mt-2" id="soThu5" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success my-3" id="btnBai2">
+            Tính giá trị trung bình
+          </button>
+          <p class="alert alert-success w-25" id="ketQuaBai2">
+            Giá trị trung bình của 5 số là:
+          </p>
+        </div>
+      </div>
+      <hr />
+
+      <!-- BÀI 3 -->
+      <div class="container my-5">
+        <h4>Bài 3: Quy đổi tiền</h4>
+        <p>1 USD = 23500 VND</p>
+        <div class="form-group">
+          <p>Nhập vào số USD cần đổi</p>
+          <input type="number" class="form-control w-25" id="soTienUSD" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success my-3" id="btnBai3">
+            Đổi sang VND
+          </button>
+          <p class="alert alert-success w-25" id="ketQuaBai3"></p>
+        </div>
+      </div>
+      <hr />
+
+      <!-- BÀI 4 -->
+      <div class="container my-5">
+        <h4>Bài 4: Tính diện tích, chu vi hình chữ nhật</h4>
+        <div class="form-group">
+          <p>Nhập vào chiều dài</p>
+          <input type="number" class="form-control w-25" id="cDai" />
+        </div>
+        <div class="form-group mt-3">
+          <p>Nhập vào chiều rộng</p>
+          <input type="number" class="form-control w-25" id="cRong" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success my-3" id="btnBai4">
+            Tính chu vi, diện tích
+          </button>
+          <p class="alert alert-success w-25" id="ketQuaBai4"></p>
+        </div>
+      </div>
+      <hr />
+
+      <!-- BÀI 5 -->
+      <div class="container my-5">
+        <h4>Bài 5: Tính tổng 2 ký số</h4>
+        <div class="form-group">
+          <p>Nhập vào 1 số có 2 chữ số</p>
+          <input type="number" class="form-control w-25" id="iSo" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-success my-3" id="btnBai5">
+            Tính tổng 2 ký số
+          </button>
+          <p class="alert alert-success w-25" id="ketQuaBai5"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
